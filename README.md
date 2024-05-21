@@ -43,7 +43,11 @@ Wi-Fi sniffing allows you to capture and analyze Wi-Fi packets in the air. This 
 1. Arduino code will not load on ESP32 Cam.
    Answer: Wifi Library was outdated use the fix in the 4th step.
 ## Pictures:
-
+Packets in Serial monitor
 ![project part serial](https://github.com/Domhubb/final-150/assets/166040147/9cdf2635-a919-450d-8247-108c3de262a2)
+
+Packets in WireShark
 ![image](https://github.com/Domhubb/final-150/assets/166040147/9c056eab-45a7-4d64-9563-5c25ec7393ca)
+
+Python Script
 ![kali](https://github.com/Domhubb/final-150/assets/166040147/6d156b2b-25d0-4285-9258-64f7c8209ae6)
