@@ -39,6 +39,6 @@ Wi-Fi sniffing allows you to capture and analyze Wi-Fi packets in the air. This 
 14. Press the rst button on your esp32
 15. Then open the capture.pcap file to view the live stream.
 
-Example
+## Problems
 1. Arduino code will not load on ESP32 Cam.
-   Answer: Wifi Library was outdated
+   Answer: Wifi Library was outdated use the fix in the 4th step.
