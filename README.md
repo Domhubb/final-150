@@ -23,7 +23,12 @@ Wi-Fi sniffing allows you to capture and analyze Wi-Fi packets in the air. This 
 
 
 ## Steps
-Note your problems or errors here.  Google any error you may come across, and not what you tried (even if it does not work), and what was the final answer.
+1. Create a Kali Linux Virtual Machine, make sure that python3 and pyserial are downloaded.
+2. Download Arduino IDE and install the library / examples from the ArduinoPCAP GitHub, and download the python file from the extras folder.
+3. Go to the examples tab ( File > examples ) and select the ESP32 Serial example from the list.
+4. Once the sketch is open, on the list of included libraries switch the “esp_wifi_internal.h” Library for the, “esp_private/wifi.h” Library (“esp_wifi_internal.h” is incompatible) 
+5. Upload the modified sketch to the ESP32
+6. Drag and drop the Python file to the Kali VM
 
 Example
 1. Arduino code will not load on ESP32 Cam.
